@@ -1,0 +1,32 @@
+/** CONTACT **/
+#contact {
+    background: #028090;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#contact .contact-item {
+    margin: 40px 0;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#contact ul {
+    margin: 20px;
+    padding: 0;
+}
+#contact ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+#contact ul li i {
+    font-size: 2em;
+}
+#contact h3 {
+    font-size: 1em;
+}
+

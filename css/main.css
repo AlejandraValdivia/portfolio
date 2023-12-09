@@ -172,9 +172,10 @@ footer {
 /*-----------Nav styles--------*/
 
 .nav-logo {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   padding: 6px 0 0 6px;
+  margin: 6px 0 6px 15px;
 }
 
 nav {
@@ -227,7 +228,7 @@ nav #contact-link:hover {
   font-size: 30px;
   cursor: pointer;
   display: none;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 .hamburger:focus {
@@ -248,7 +249,7 @@ nav #contact-link:hover {
 
 .header-box h1 {
   text-transform: none;
-  color: #484848;
+  color: #393939;
   font-size: 2em;
   /* text-shadow: 1px 1px 10px #ccc; */
   width: 100%;
@@ -370,7 +371,7 @@ footer {
 
 footer {
   background: #ffe8d6;
-  color: #453e4f;
+  color: #393939;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -392,7 +393,7 @@ footer .follow-section {
 }
 
 a.email {
-  color: #453e4f;
+  color: #393939;
 }
 
 footer .social-icons {
@@ -537,7 +538,8 @@ footer .contact-wrapper {
 #about h3,
 #about h4,
 #about p {
-  color: #4a4f3e;
+  color: #393939;
+  text-align: left;
 }
 
 /* -- Styles for Alejandra's intro heading small screens -------*/
@@ -590,6 +592,7 @@ footer .contact-wrapper {
 
   .hamburger {
     display: block;
+    padding-right: 50px;
   }
   .header-box h1 {
     font-size: 2em;
@@ -614,8 +617,8 @@ footer .contact-wrapper {
 /* ---- Media Queries for TABLETS ---- */
 @media screen and (min-width: 768px) {
   .nav-logo {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
   }
   /*position header div in middle*/
   .header-box {

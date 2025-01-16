@@ -98,7 +98,6 @@ figure {
   width: 50px;
   height: 50px;
   padding: 6px 0 0 6px;
-
 }
 
 nav {
@@ -264,14 +263,12 @@ ul#nav-ul {
   }
 
 /*****HEADER and FOOTER*****/
-
 header,
 footer {
   flex-flow: column wrap;
 }
 
 /*****FOOTER*****/
-
 #contact {
   display: flex;
   justify-content: center;
@@ -410,7 +407,6 @@ footer a {
 }
 
 /*****WORK*****/
-
 #work {
   display: flex;
   background-color: #ffffff;
@@ -519,7 +515,6 @@ h2.tech-title {
 
 
 /*-------Media Queries start here-------*/
-
 /*NAV styles for smaller screens*/
 @media screen and (max-width: 900px) {
   nav {
